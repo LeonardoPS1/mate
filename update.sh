@@ -3,8 +3,12 @@
 # Mate AI Agent - VPS Update Script
 # Usage: ./update.sh
 
+echo ">>> Preparando para la actualización..."
+# Aseguramos que el script de actualización no cause conflictos
+git checkout update.sh 2>/dev/null || true
+
 echo ">>> Bajando últimos cambios desde GitHub..."
-git pull origin main
+git pull origin main --force
 
 echo ">>> Instalando nuevas dependencias..."
 npm install
