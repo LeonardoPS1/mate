@@ -3,7 +3,7 @@ import { config } from './config.js';
 import { whitelistMiddleware } from './bot/middleware.js';
 import { setupHandlers } from './bot/handlers.js';
 
-console.log("Starting Mate AI Agent...");
+console.log("Starting Mate AI Agent v1.0.1...");
 
 // 1. Initialize Bot
 const bot = new Bot(config.telegram.botToken);
