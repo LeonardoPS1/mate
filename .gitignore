@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment and sensitive data
+.env
+service-account.json
+memory.db
+
+# Logs and temp files
+logs/
+*.log
+*.txt
+audio/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db

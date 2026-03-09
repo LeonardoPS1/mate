@@ -1,0 +1,25 @@
+{
+  "historyCount": 2,
+  "messages": [
+    {
+      "id": 15,
+      "userId": 99999999,
+      "role": "user",
+      "content": "Hola Mate, este es un mensaje de prueba.",
+      "toolCalls": null,
+      "toolCallId": null,
+      "createdAt": "2026-03-09 02:20:47"
+    },
+    {
+      "id": 16,
+      "userId": 99999999,
+      "role": "assistant",
+      "content": "¡Hola! Recibí tu mensaje de prueba correctamente.",
+      "toolCalls": null,
+      "toolCallId": null,
+      "createdAt": "2026-03-09 02:20:47"
+    }
+  ],
+  "dbExists": true,
+  "dbSize": 16384
+}
